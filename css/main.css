@@ -1,14 +1,15 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  body{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-  }
-  
-.introduction{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.introduction {
   letter-spacing: 1px;
 }
 
@@ -16,7 +17,7 @@ h2 {
   padding-top: 10px;
   text-align: center;
   font-size: 50px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h3 {
@@ -32,21 +33,21 @@ h4 {
 }
 
 /*Frame*/
-.frame{
-margin: 10px;
-margin-left: 30px;
-margin-right: 30px;
+.frame {
+  margin: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.introduction{
+.introduction {
   padding-top: 20px;
   width: 50%;
   margin: auto;
 }
-.introduction> p {
+
+.introduction > p {
   padding-bottom: 10px;
 }
-
 
 /*Button, on booking and meny*/
 .button {
@@ -60,22 +61,22 @@ margin-right: 30px;
   cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   color: white;
   border-style: inset;
   background-color: rgb(174, 113, 0);
 }
 
-/* center*/ 
-.center{
+/* center*/
+.center {
   margin: auto;
 }
 
-/* text colour for all the pages*/ 
-.orange{
+/* text colour for all the pages*/
+.orange {
   color: #d98d00;
-  }
-  
-.green{
+}
+
+.green {
   color: #008000;
 }

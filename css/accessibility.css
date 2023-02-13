@@ -1,22 +1,21 @@
+.tekst {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1%;
+  padding-right: 2%;
+}
 
-  .tekst {
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 1%;
-    padding-right: 2%;
-  }
-  
-  p {
-    padding-bottom: 10px;
-  }
-  
-  .tekst > img {
-    display: block;
-    border: solid;
-    border-radius: 2px;
-  }
+p {
+  padding-bottom: 10px;
+}
 
-  img{
-    width: 100%;
-  }
+.tekst > img {
+  display: block;
+  border: solid;
+  border-radius: 2px;
+}
+
+img {
+  width: 100%;
+}

@@ -1,50 +1,54 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  html, body{
-   
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-  }
-  
-.introduction{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.introduction {
   letter-spacing: 1px;
 }
 
-body{
-    margin: 0;
-    place-items: center;
-    
+body {
+  margin: 0;
+  place-items: center;
 }
 
-.card{
-    width: 360;
-    border-radius: 10px;
+.card {
+  width: 360;
+  border-radius: 10px;
 }
 
-.swiper-slide{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0 0px;
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0 0px;
 }
 
-.swiper, .swiper-pagination, .swiper-pagination-bullet {
-    background: #ffffff;
+.swiper,
+.swiper-pagination,
+.swiper-pagination-bullet {
+  background: #ffffff;
 }
 
-.swper-horizontal, .swiper-pagination-bullets, .swiper-pagination-hotizontal{
-    bottom: 0px;
+.swper-horizontal,
+.swiper-pagination-bullets,
+.swiper-pagination-hotizontal {
+  bottom: 0px;
 }
 
-/* here you will find pictures and picture text*/ 
+/* here you will find pictures and picture text*/
 
 /* Hero image index*/
 .hero-image {
-  background-image:url("/images/pexels-matt-hardy-2658452.jpg");
+  background-image: url("/images/pexels-matt-hardy-2658452.jpg");
   height: 55vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +69,7 @@ body{
 /*General picture text*/
 .picture-text {
   color: rgba(255, 255, 255, 0.92);
-  font-size:calc(6px + 0.5vw);
+  font-size: calc(6px + 0.5vw);
   position: absolute;
   bottom: 8px;
   left: 16px;
@@ -74,20 +78,18 @@ body{
 /*Picture text for hero image Index*/
 .picture-text-hero-image {
   color: rgba(0, 0, 0, 0.431);
-  font-size:calc(9px + 0.5vw);
+  font-size: calc(9px + 0.5vw);
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
-
-
 
 /* The pictures on INDEX */
 
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
 .image-booking {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
-  background-image:url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
+  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
 
   height: 100%;
   background-position: center;
@@ -99,7 +101,7 @@ body{
 /* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
 .image-meny {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
-  background-image:url("/images/pexels-liam-spicer-5345384.jpg");
+  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,11 +109,10 @@ body{
   position: relative;
 }
 
-
 /* Image from: https://www.pexels.com/photo/snow-sea-landscape-water-5334316/ */
 .image-accessibility {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
-  background-image:url("/images/pexels-christian-pfeifer-5334316.jpg");
+  background-image: url("/images/pexels-christian-pfeifer-5334316.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +123,7 @@ body{
 /* Image from: https://www.pexels.com/photo/back-view-of-a-person-walking-along-the-seashore-2602545/ */
 .image-topical {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.183);
-  background-image:url("/images/pexels-matt-hardy-2602545.jpg");
+  background-image: url("/images/pexels-matt-hardy-2602545.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,42 +132,42 @@ body{
 }
 
 /* Hero image on pages + text */
-.hero-page-text{
-font-size:calc(6vw + 15px);
-color: rgb(217, 141, 0);
+.hero-page-text {
+  font-size: calc(6vw + 15px);
+  color: rgb(217, 141, 0);
 }
 
 /* Image from: https://www.pexels.com/photo/black-rocky-mountain-under-the-blue-sky-5345384/ */
 .hero-image-meny {
-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.500);
-background-image:url("/images/pexels-liam-spicer-5345384.jpg");
-height: 20vw;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-liam-spicer-5345384.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Image from: https://www.pexels.com/photo/houses-in-the-mountains-5204801/ */
 .hero-image-booking {
-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.500);
-background-image:url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
-height: 20vw;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-anastasiia-horbachenko-5204801.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Image from: https://www.pexels.com/photo/snow-sea-landscape-water-5334316/ */
 .hero-image-accessibility {
-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.500);
-background-image:url("/images/pexels-christian-pfeifer-5334316.jpg");
-height: 20vw;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+  background-image: url("/images/pexels-christian-pfeifer-5334316.jpg");
+  height: 20vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Footer at the bottom of the page with info */
@@ -217,7 +218,6 @@ footer {
 
 /* New layout when screen is 500px wide */
 @media screen and (max-width: 500px) {
-
   .footer-boxes {
     flex-direction: column;
     align-items: center;
@@ -228,6 +228,3 @@ footer {
     width: 50%;
   }
 }
-
-
-
